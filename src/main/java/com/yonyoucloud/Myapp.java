@@ -13,7 +13,8 @@ public class Myapp {
 	@RequestMapping("/")
 	@ResponseBody
 	public String index(){
-		return "hello,spring boot application!";
+		System.out.println(11111);
+		return "hello,spring boot application! baby";
 	}
 
 	public static void main(String[] args) {
